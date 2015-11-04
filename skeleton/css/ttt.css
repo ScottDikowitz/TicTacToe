@@ -1,0 +1,50 @@
+html, body, h1, ul, li, figure, p {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  font: inherit;
+  font-family: sans-serif;
+  text-decoration: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 50px;
+  text-align: center;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+
+}
+
+.ttt-grid {
+  border: 5px solid red;
+  width: 600px;
+  background: lightblue;
+  margin: auto;
+}
+
+.ttt-grid li {
+  height: 190px;
+  width: 190px;
+  float: left;
+  background: grey;
+  border: 5px solid white;
+}
+
+.ttt-grid li:hover {
+  background: yellow;
+}
+
+.ttt-grid li.ttt-marked {
+  color: #2ECCFA;
+  font-size: 150px;
+  text-align: center;
+}
